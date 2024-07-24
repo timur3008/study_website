@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Study Videos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script defer src="script.js"></script>
+</head>
+<body class="sidebar-hidden">
+
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <div class="nav-section nav-left">
+                    <button class="nav-button menu-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="menu" style="width: 20px; height: 20px;">
+                            <path fill="#d8dbe5" d="M27 2H5A3 3 0 0 0 2 5V7a3 3 0 0 0 3 3H27a3 3 0 0 0 3-3V5A3 3 0 0 0 27 2zM27 12H5a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3H27a3 3 0 0 0 3-3V15A3 3 0 0 0 27 12zM27 22H5a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3H27a3 3 0 0 0 3-3V25A3 3 0 0 0 27 22z"></path>
+                            <path fill="#e7eaf6" d="M5,2A3,3,0,0,0,2,5V7a3,3,0,0,0,3,3H16V2Z"></path>
+                            <path fill="#d8dbe5" d="M27,2H16v8H27a3,3,0,0,0,3-3V5A3,3,0,0,0,27,2Z"></path>
+                            <path fill="#e7eaf6" d="M5,12a3,3,0,0,0-3,3v2a3,3,0,0,0,3,3H16V12Z"></path>
+                            <path fill="#d8dbe5" d="M27,12H16v8H27a3,3,0,0,0,3-3V15A3,3,0,0,0,27,12Z"></path>
+                            <path fill="#e7eaf6" d="M5,22a3,3,0,0,0-3,3v2a3,3,0,0,0,3,3H16V22Z"></path>
+                            <path fill="#d8dbe5" d="M27,22H16v8H27a3,3,0,0,0,3-3V25A3,3,0,0,0,27,22Z"></path>
+                            <path fill="#7295b2" d="M27 10H5A3 3 0 0 1 2 7V5A3 3 0 0 1 5 2H27a3 3 0 0 1 3 3V7A3 3 0 0 1 27 10zM5 4A1 1 0 0 0 4 5V7A1 1 0 0 0 5 8H27a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1zM27 20H5a3 3 0 0 1-3-3V15a3 3 0 0 1 3-3H27a3 3 0 0 1 3 3v2A3 3 0 0 1 27 20zM5 14a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1H27a1 1 0 0 0 1-1V15a1 1 0 0 0-1-1zM27 30H5a3 3 0 0 1-3-3V25a3 3 0 0 1 3-3H27a3 3 0 0 1 3 3v2A3 3 0 0 1 27 30zM5 24a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1H27a1 1 0 0 0 1-1V25a1 1 0 0 0-1-1z"></path>
+                        </svg>
+                    </button>
+                    <a href="#" class="nav-logo">
+                        <div class="logo-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 149 179.25" id="hacker" style="width: 32px; height: 32px;">
+                                <g>
+                                    <g>
+                                        <path fill="#3478c1" stroke="#2d2828" stroke-miterlimit="10" stroke-width="4" d="m140.39,153.32l-9.43,10.66c-5,5.65-12.18,8.89-19.73,8.89H37.77c-7.55,0-14.73-3.24-19.73-8.89l-9.43-10.66c-7.57-8.56-8.76-21.02-2.94-30.85l4.97-8.4c9.46-16.01,26.67-25.83,45.27-25.83h37.19c18.6,0,35.81,9.82,45.27,25.83l4.97,8.4c5.81,9.84,4.62,22.29-2.94,30.85h0Z"></path>
+                                        <path fill="#934a2a" stroke="#2d2828" stroke-miterlimit="10" stroke-width="4" d="m124.26,53.45s0,.08-.01.11c-.03.54-.09,1.08-.17,1.62-.11.74-.25,1.48-.43,2.21-.09.37-.19.73-.29,1.09-.18.62-.39,1.23-.63,1.84-1.14,2.93-2.89,5.68-5.26,8.05l-34.22,34.22-8.75,8.75-42.97-42.97c-2.37-2.37-4.12-5.11-5.25-8.04-.17-.44-.33-.88-.47-1.33-.08-.25-.16-.5-.23-.75-.08-.29-.16-.58-.23-.87-.07-.28-.14-.57-.19-.86-.09-.44-.17-.89-.24-1.34-.05-.37-.1-.74-.13-1.12-.01-.03-.01-.05-.01-.08-.07-.71-.1-1.42-.1-2.14-.01-5.99,2.28-11.99,6.85-16.58l26.42-26.41c9.14-9.13,23.96-9.13,33.1,0l26.41,26.41c.58.58,1.11,1.17,1.62,1.79.5.61.96,1.24,1.39,1.89.43.65.82,1.32,1.18,2s.68,1.37.96,2.07c.28.71.53,1.42.75,2.15.16.54.3,1.08.42,1.63h0c.12.56.22,1.11.3,1.66.01,0,0,.01,0,.01.24,1.65.3,3.33.18,4.99Z"></path>
+                                        <path fill="#3478c1" stroke="#2d2828" stroke-miterlimit="10" stroke-width="4" d="m124.26,53.45s0,.08-.01.11c-.03.54-.09,1.08-.17,1.62-.1.74-.24,1.48-.43,2.21-.09.37-.19.73-.29,1.09-.18.62-.39,1.23-.63,1.84-1.14-2.93-2.91-5.68-5.27-8.04-5.91-4.11-11.78-7.36-17.62-9.78-.2-.08-.41-.17-.61-.25-.88-.36-1.76-.7-2.64-1.02-.67-.25-1.34-.49-2.01-.71-.95-.32-1.89-.61-2.84-.88h-.01c-.54-.16-1.07-.3-1.61-.44-1.07-.29-2.15-.54-3.22-.76-2.08-.44-4.15-.77-6.21-.99-.07,0-.14-.01-.21-.02-1.07-.12-2.13-.2-3.2-.25-2.09-.11-4.18-.11-6.26,0h-.12c-.41.02-.81.04-1.21.08-.22.01-.45.03-.67.06-.4.02-.8.06-1.19.11-1.56.15-3.12.37-4.68.66-.52.09-1.04.19-1.56.31-1.03.21-2.07.45-3.1.72s-2.06.56-3.09.89c-.52.16-1.03.33-1.55.5-1.03.35-2.06.72-3.08,1.13-.51.2-1.03.41-1.54.62-5.95,2.46-11.84,5.81-17.7,10.02-2.36,2.36-4.13,5.12-5.25,8.05-.17-.44-.33-.88-.47-1.33-.08-.25-.16-.5-.23-.75-.08-.29-.16-.58-.23-.87-.07-.28-.14-.57-.19-.86-.09-.44-.17-.89-.24-1.34-.05-.37-.1-.74-.13-1.12-.01-.03-.01-.05-.01-.08-.07-.71-.1-1.42-.1-2.14-.01-5.99,2.28-11.99,6.85-16.58l26.42-26.41c9.14-9.13,23.96-9.13,33.1,0h.01l10.07,10.07s.01,0,0,.01l1.5,1.49h0s14.83,14.84,14.83,14.84c.58.58,1.11,1.17,1.62,1.79.5.61.96,1.24,1.39,1.89.43.65.82,1.32,1.18,2s.68,1.37.96,2.07c.29.71.54,1.42.75,2.15.16.54.3,1.08.42,1.63h0c.12.56.22,1.11.3,1.66.01,0,0,.01,0,.01.25,1.65.31,3.33.18,4.99Z"></path>
+                                        <path d="m124.26,53.45s0,.08-.01.11c-.03.54-.09,1.08-.17,1.62-.1.74-.24,1.48-.43,2.21-.09.37-.19.73-.29,1.09-.18.62-.39,1.23-.63,1.84-1.14,2.93-2.89,5.68-5.26,8.05l-34.22,34.22-4.17,4.17-5.63-1.3c5.52-8.06,9.96-16.03,13.52-23.72,6.74-14.53,10.38-28.09,12.26-39.49,1.59-9.52,1.96-17.53,1.9-23.32l1.5,1.49h0s14.83,14.84,14.83,14.84c.58.58,1.11,1.17,1.62,1.79.5.61.96,1.24,1.39,1.89.43.65.82,1.32,1.18,2s.68,1.37.96,2.07c.29.71.54,1.42.75,2.15.16.54.3,1.08.42,1.63h0c.12.56.22,1.11.3,1.66.01,0,0,.01,0,.01.25,1.65.31,3.33.18,4.99Z" style="isolation:isolate" fill="#051b35" opacity=".05"></path><path fill="#f8feff" stroke="#2d2828" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m106.35,52.73c-.64,4.35-3.3,7.6-5.91,7.19-.04,0-.11-.02-.15-.04v4.24c0,7.11-6.46,13.14-12.89,17.38-.08.04-.13.08-.21.11-3.85,2.51-8.26,3.79-12.69,3.79s-8.86-1.28-12.7-3.79c-.08-.04-.13-.08-.21-.11-6.44-4.24-12.89-10.26-12.89-17.38v-4.24s-.09.04-.15.04c-2.59.41-5.25-2.83-5.91-7.19-.68-4.33.96-8.2,3.57-8.59.88-.13,1.75.13,2.55.71.08-.88.22-1.74.47-2.59,16.5-6.89,33.37-6.96,50.61.24.21.77.34,1.54.41,2.35.79-.58,1.65-.84,2.53-.71,2.63.39,4.24,4.26,3.57,8.59h0Z"></path>
+                                        <path fill="#f1d302" stroke="#2d2828" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m139.68,112.39l-14.54,57.29c-1.13,4.45-5.13,7.57-9.72,7.57H33.59c-4.59,0-8.59-3.12-9.72-7.57l-14.54-57.29c-1.61-6.34,3.18-12.5,9.72-12.5h110.91c6.54,0,11.33,6.16,9.72,12.5Z"></path><path fill="#f8feff" stroke="#2d2828" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m87.11,138.58c0,6.96-5.64,12.6-12.6,12.6-.93,0-1.84-.1-2.72-.3-5.65-1.24-9.89-6.27-9.89-12.3,0-6.96,5.65-12.62,12.61-12.62,3.35,0,6.39,1.31,8.64,3.44,2.44,2.3,3.96,5.57,3.96,9.18Z"></path><path d="M139.68 112.39l-14.54 57.29c-1.13 4.45-5.13 7.57-9.72 7.57h-41.97c31.27-21.68 41.26-62.79 43.89-77.36h12.62c6.54 0 11.33 6.16 9.72 12.5zM87.11 138.58c0 6.96-5.64 12.6-12.6 12.6-.93 0-1.84-.1-2.72-.3 5.64-6.24 9.28-15.07 11.36-21.48 2.44 2.3 3.96 5.57 3.96 9.18z" style="isolation:isolate" fill="#051b35" opacity=".05"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h2 class="logo-text">HackerTube</h2>
+                    </a>
+                </div>
+
+                <div class="nav-section nav-center">
+                    <form action="#" class="search-form">
+                        <input type="search" placeholder="search" class="search-input" required>
+                        <button class="nav-button search-button">
+                            <svg class="uil-search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="search" style="width: 20px; height: 20px;">
+                                <path fill="#7d7ebc" stroke="#000" stroke-miterlimit="10" stroke-width="15" d="M63,300.3A173.58,173.58,0,1,0,71.55,55,173.59,173.59,0,0,0,63,300.3Z"></path>
+                                <circle cx="189.96" cy="181.98" r="139.72" fill="#78d1f1" stroke="#000" stroke-miterlimit="10" stroke-width="15" transform="rotate(-43.01 189.951 181.978)"></circle>
+                                <path fill="#7d7ebc" stroke="#000" stroke-miterlimit="10" stroke-width="15" d="M333.41,373.93l38.06-35.5L489.38,460.31a26,26,0,0,1-1.28,36.78h0a26,26,0,0,1-36.78-1.28Z"></path>
+                                <line x1="352.47" x2="308.34" y1="356.15" y2="308.84" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="15"></line>
+                                <path fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="15" d="M238.65,103.16A103.19,103.19,0,0,0,98,141.92"></path>
+                            </svg>
+                        </button>
+                    </form>
+                    <button class="nav-button mic-button">
+                        <svg class="uil-microphone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="microphone" style="width: 20px; height: 20px;">
+                            <g>
+                                <path fill="#42a5f5" d="M22,8v8a6,6,0,0,1-12,0V8A6,6,0,0,1,22,8Z"></path>
+                                <path fill="#455a64" d="M26,16a1,1,0,0,0-2,0A8,8,0,0,1,8,16a1,1,0,0,0-2,0,10,10,0,0,0,9,9.95V28H11a1,1,0,0,0,0,2H21a1,1,0,0,0,0-2H17V25.95A10,10,0,0,0,26,16Z"></path>
+                                <path fill="#1e88e5" d="M22,8v8a6,6,0,0,1-6,6V2A6,6,0,0,1,22,8Z"></path>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="nav-section nav-right">
+                    <button class="nav-button search-button">
+                        <svg class="uil-search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="search" style="width: 20px; height: 20px;">
+                            <path fill="#7d7ebc" stroke="#000" stroke-miterlimit="10" stroke-width="15" d="M63,300.3A173.58,173.58,0,1,0,71.55,55,173.59,173.59,0,0,0,63,300.3Z"></path>
+                            <circle cx="189.96" cy="181.98" r="139.72" fill="#78d1f1" stroke="#000" stroke-miterlimit="10" stroke-width="15" transform="rotate(-43.01 189.951 181.978)"></circle>
+                            <path fill="#7d7ebc" stroke="#000" stroke-miterlimit="10" stroke-width="15" d="M333.41,373.93l38.06-35.5L489.38,460.31a26,26,0,0,1-1.28,36.78h0a26,26,0,0,1-36.78-1.28Z"></path>
+                            <line x1="352.47" x2="308.34" y1="356.15" y2="308.84" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="15"></line>
+                            <path fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="15" d="M238.65,103.16A103.19,103.19,0,0,0,98,141.92"></path>
+                        </svg>
+                    </button>
+                    <button class="nav-button theme-button">
+                        <svg class="uil-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" id="moon" style="width: 30px; height: 30px;">
+                            <path fill="#f0c419" d="M118.3115,48.5841c0,1.064-.6687,1.9862-1.6272,2.2699l-8.5599,2.6008c-3.678,1.1114-6.509,4.0905-7.6236,7.9682l-4.5697,16.2202c-.2898.9932-1.1592,1.6788-2.14,1.6788s-1.8502-.6856-2.14-1.6788l-4.5697-16.2202c-1.1146-3.8778-3.9456-6.8569-7.6236-7.9682l-8.5599-2.6008c-.9585-.2837-1.6272-1.2059-1.6272-2.2699s.6687-1.9862,1.6272-2.2699l8.5599-2.6008c3.678-1.1114,6.509-4.0905,7.6236-7.9682l4.5697-16.2202c.2898-.9932,1.1592-1.6788,2.14-1.6788s1.8502.6856,2.14,1.6788l4.5697,16.2202c1.1146,3.8778,3.9456,6.8569,7.6236,7.9682l8.5599,2.6008c.9585.2837,1.6272,1.2059,1.6272,2.2699Z"></path>
+                            <path fill="#f0c419" d="M120.1808,92.8231c-10.5462,19.2231-30.7154,31.1769-52.6385,31.1769-33.0924,0-60-26.9076-60-60S34.4499,4,67.5423,4c1.6385,0,3.2769.0693,4.8923.2078.9923.0923,1.823.8076,2.0308,1.7768.2307.9693-.1847,1.9846-1.0385,2.4923-13.8,8.4692-22.0384,23.1923-22.0384,39.3692,0,25.4539,20.6999,46.1538,46.1538,46.1538,6.8769,0,13.477-1.477,19.6154-4.3616.9-.4385,1.9846-.2307,2.6769.4847.6924.7385.8078,1.823.3462,2.7Z"></path>
+                            <path fill="#e57e25" d="M79.0808,117.0769c-33.0924,0-60-26.9076-60-60,0-19.4206,9.2746-36.7019,23.6203-47.674C21.98,18.8652,7.5423,39.7666,7.5423,64c0,33.0924,26.9076,60,60,60,13.4218,0,26.1739-4.4981,36.4753-12.384-7.7013,3.522-16.172,5.4609-24.9369,5.4609Z"></path>
+                        </svg>
+                    </button>
+                    <button class="nav-button theme-button deactivated">
+                        <svg class="uil-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="sun">
+                            <path fill="#fade1d" d="M60 32.03c-.01.47-.36.87-.82.95-.6.11-5.92 1.22-8.27 6.43-2.58 5.72 1.02 11.01 1.06 11.06.26.38.23.91-.09 1.25-.33.35-.84.42-1.25.18-.83-.49-5.21-2.86-10.28-.96-3.73 1.39-5.67 4.27-6.62 6.26-.49 1.04-.71 1.84-.76 2.05-.11.44-.51.75-.97.75s-.86-.31-.97-.76c-.16-.63-1.69-6.22-7.37-8.3-5.05-1.85-9.38.54-10.2 1.04-.4.25-.91.18-1.24-.16a.996.996 0 0 1-.1-1.25c.14-.22 3.59-5.43.97-11.15-2.37-5.18-7.68-6.32-8.28-6.44a.993.993 0 0 1-.81-.95c-.01-.48.31-.89.76-1 .26-.06 6.2-1.57 8.3-7.37 1.82-5.02-.59-9.32-1.09-10.14a.983.983 0 0 1 .13-1.22c.32-.33.83-.4 1.23-.16.83.49 5.23 2.84 10.32.92 5.66-2.13 7.22-7.68 7.38-8.31.11-.44.51-.75.97-.75.44 0 .83.29.95.7.01.02.02.03.02.05.16.63 1.72 6.18 7.38 8.31 5.09 1.92 9.49-.43 10.32-.92a1 1 0 0 1 1.23.16c.32.33.38.83.13 1.22-.5.82-2.91 5.12-1.09 10.14 2.1 5.8 8.04 7.31 8.3 7.37a1 1 0 0 1 .76 1z"></path>
+                            <path fill="#fbbc13" d="M33.73 57.2c-.49 1.04-.71 1.84-.76 2.05-.11.44-.51.75-.97.75s-.86-.31-.97-.76c-.16-.63-1.69-6.22-7.37-8.3-5.05-1.85-9.38.54-10.2 1.04-.4.25-.91.18-1.24-.16a.996.996 0 0 1-.1-1.25c.14-.22 3.59-5.43.97-11.15-2.37-5.18-7.68-6.32-8.28-6.44a.993.993 0 0 1-.81-.95c-.01-.48.31-.89.76-1 .26-.06 6.2-1.57 8.3-7.37 1.82-5.02-.59-9.32-1.09-10.14a.983.983 0 0 1 .13-1.22c.32-.33.83-.4 1.23-.16.83.49 5.23 2.84 10.32.92 5.66-2.13 7.22-7.68 7.38-8.31.11-.44.51-.75.97-.75.44 0 .83.29.95.7-4.16 10.74-12.41 37.32.78 52.5z"></path>
+                            <path fill="#fe9d0b" d="M48 32c0 8.82-7.18 16-16 16-1.25 0-2.46-.14-3.62-.42C21.3 45.94 16 39.57 16 32c0-7.87 5.71-14.43 13.21-15.75.9-.17 1.84-.25 2.79-.25 8.82 0 16 7.18 16 16z"></path>
+                            <path fill="#ff6200" d="M28.38 47.58C21.3 45.94 16 39.57 16 32c0-7.87 5.71-14.43 13.21-15.75-2.46 9.38-4.09 21.27-.83 31.33z"></path>
+                        </svg>
+                    </button>
+                    <div class="user-image">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="user" style="width: 30px; height: 30px;">
+                            <path fill="#1083c4" d="M512,251.34c0,67-26.65,130-75,177.29a21.26,21.26,0,0,1-2.25,2c-48,46-111.41,71.34-178.54,71.37h-.11c-67.27,0-130.77-25.41-178.84-71.55l-1.87-1.84a247.54,247.54,0,0,1,0-354.56C123.63,26.64,187.85.51,256.17.51S388.72,26.64,437,74.07,512,184.35,512,251.34Z"></path>
+                            <path fill="#2196f3" d="M493,251.34c0,62-24.67,120.3-69.45,164.11a19.68,19.68,0,0,1-2.08,1.85c-44.45,42.58-103.13,66-165.28,66.07h-.1c-62.27,0-121.05-23.52-165.55-66.23l-1.73-1.7a229.15,229.15,0,0,1,0-328.22c44.68-43.9,104.13-68.08,167.37-68.08s122.7,24.18,167.38,68.09S493,189.32,493,251.34Z"></path>
+                            <path fill="#fff" d="M378.37 184.58a122.38 122.38 0 1 1-35.84-86.53A121.57 121.57 0 0 1 378.37 184.58zM434.79 409.05a254 254 0 0 1-178.63 73.44h-.1a253.92 253.92 0 0 1-178.8-72.56 7.49 7.49 0 0 1-.64-10 230.51 230.51 0 0 1 114-77.19 7.46 7.46 0 0 0 1.09 6.73l56.86 77.43a7.47 7.47 0 0 0 5.94 3.06h.11a7.51 7.51 0 0 0 5.92-2.89l59.68-76.62a7.51 7.51 0 0 0 1.22-6.93 7 7 0 0 0-.46-1.09A229.64 229.64 0 0 1 435.38 399 7.5 7.5 0 0 1 434.79 409.05z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main-layout">
+            <div class="screen-overlay"></div>
+
+            <aside class="sidebar">
+                <div class="nav-section nav-left">
+                    <button class="nav-button menu-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="menu" style="width: 20px; height: 20px;">
+                            <path fill="#d8dbe5" d="M27 2H5A3 3 0 0 0 2 5V7a3 3 0 0 0 3 3H27a3 3 0 0 0 3-3V5A3 3 0 0 0 27 2zM27 12H5a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3H27a3 3 0 0 0 3-3V15A3 3 0 0 0 27 12zM27 22H5a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3H27a3 3 0 0 0 3-3V25A3 3 0 0 0 27 22z"></path>
+                            <path fill="#e7eaf6" d="M5,2A3,3,0,0,0,2,5V7a3,3,0,0,0,3,3H16V2Z"></path>
+                            <path fill="#d8dbe5" d="M27,2H16v8H27a3,3,0,0,0,3-3V5A3,3,0,0,0,27,2Z"></path>
+                            <path fill="#e7eaf6" d="M5,12a3,3,0,0,0-3,3v2a3,3,0,0,0,3,3H16V12Z"></path>
+                            <path fill="#d8dbe5" d="M27,12H16v8H27a3,3,0,0,0,3-3V15A3,3,0,0,0,27,12Z"></path>
+                            <path fill="#e7eaf6" d="M5,22a3,3,0,0,0-3,3v2a3,3,0,0,0,3,3H16V22Z"></path>
+                            <path fill="#d8dbe5" d="M27,22H16v8H27a3,3,0,0,0,3-3V25A3,3,0,0,0,27,22Z"></path>
+                            <path fill="#7295b2" d="M27 10H5A3 3 0 0 1 2 7V5A3 3 0 0 1 5 2H27a3 3 0 0 1 3 3V7A3 3 0 0 1 27 10zM5 4A1 1 0 0 0 4 5V7A1 1 0 0 0 5 8H27a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1zM27 20H5a3 3 0 0 1-3-3V15a3 3 0 0 1 3-3H27a3 3 0 0 1 3 3v2A3 3 0 0 1 27 20zM5 14a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1H27a1 1 0 0 0 1-1V15a1 1 0 0 0-1-1zM27 30H5a3 3 0 0 1-3-3V25a3 3 0 0 1 3-3H27a3 3 0 0 1 3 3v2A3 3 0 0 1 27 30zM5 24a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1H27a1 1 0 0 0 1-1V25a1 1 0 0 0-1-1z"></path>
+                        </svg>
+                    </button>
+                    <a href="#" class="nav-logo">
+                        <div class="logo-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 149 179.25" id="hacker" style="width: 32px; height: 32px;">
+                                <g>
+                                    <g>
+                                        <path fill="#3478c1" stroke="#2d2828" stroke-miterlimit="10" stroke-width="4" d="m140.39,153.32l-9.43,10.66c-5,5.65-12.18,8.89-19.73,8.89H37.77c-7.55,0-14.73-3.24-19.73-8.89l-9.43-10.66c-7.57-8.56-8.76-21.02-2.94-30.85l4.97-8.4c9.46-16.01,26.67-25.83,45.27-25.83h37.19c18.6,0,35.81,9.82,45.27,25.83l4.97,8.4c5.81,9.84,4.62,22.29-2.94,30.85h0Z"></path>
+                                        <path fill="#934a2a" stroke="#2d2828" stroke-miterlimit="10" stroke-width="4" d="m124.26,53.45s0,.08-.01.11c-.03.54-.09,1.08-.17,1.62-.11.74-.25,1.48-.43,2.21-.09.37-.19.73-.29,1.09-.18.62-.39,1.23-.63,1.84-1.14,2.93-2.89,5.68-5.26,8.05l-34.22,34.22-8.75,8.75-42.97-42.97c-2.37-2.37-4.12-5.11-5.25-8.04-.17-.44-.33-.88-.47-1.33-.08-.25-.16-.5-.23-.75-.08-.29-.16-.58-.23-.87-.07-.28-.14-.57-.19-.86-.09-.44-.17-.89-.24-1.34-.05-.37-.1-.74-.13-1.12-.01-.03-.01-.05-.01-.08-.07-.71-.1-1.42-.1-2.14-.01-5.99,2.28-11.99,6.85-16.58l26.42-26.41c9.14-9.13,23.96-9.13,33.1,0l26.41,26.41c.58.58,1.11,1.17,1.62,1.79.5.61.96,1.24,1.39,1.89.43.65.82,1.32,1.18,2s.68,1.37.96,2.07c.28.71.53,1.42.75,2.15.16.54.3,1.08.42,1.63h0c.12.56.22,1.11.3,1.66.01,0,0,.01,0,.01.24,1.65.3,3.33.18,4.99Z"></path>
+                                        <path fill="#3478c1" stroke="#2d2828" stroke-miterlimit="10" stroke-width="4" d="m124.26,53.45s0,.08-.01.11c-.03.54-.09,1.08-.17,1.62-.1.74-.24,1.48-.43,2.21-.09.37-.19.73-.29,1.09-.18.62-.39,1.23-.63,1.84-1.14-2.93-2.91-5.68-5.27-8.04-5.91-4.11-11.78-7.36-17.62-9.78-.2-.08-.41-.17-.61-.25-.88-.36-1.76-.7-2.64-1.02-.67-.25-1.34-.49-2.01-.71-.95-.32-1.89-.61-2.84-.88h-.01c-.54-.16-1.07-.3-1.61-.44-1.07-.29-2.15-.54-3.22-.76-2.08-.44-4.15-.77-6.21-.99-.07,0-.14-.01-.21-.02-1.07-.12-2.13-.2-3.2-.25-2.09-.11-4.18-.11-6.26,0h-.12c-.41.02-.81.04-1.21.08-.22.01-.45.03-.67.06-.4.02-.8.06-1.19.11-1.56.15-3.12.37-4.68.66-.52.09-1.04.19-1.56.31-1.03.21-2.07.45-3.1.72s-2.06.56-3.09.89c-.52.16-1.03.33-1.55.5-1.03.35-2.06.72-3.08,1.13-.51.2-1.03.41-1.54.62-5.95,2.46-11.84,5.81-17.7,10.02-2.36,2.36-4.13,5.12-5.25,8.05-.17-.44-.33-.88-.47-1.33-.08-.25-.16-.5-.23-.75-.08-.29-.16-.58-.23-.87-.07-.28-.14-.57-.19-.86-.09-.44-.17-.89-.24-1.34-.05-.37-.1-.74-.13-1.12-.01-.03-.01-.05-.01-.08-.07-.71-.1-1.42-.1-2.14-.01-5.99,2.28-11.99,6.85-16.58l26.42-26.41c9.14-9.13,23.96-9.13,33.1,0h.01l10.07,10.07s.01,0,0,.01l1.5,1.49h0s14.83,14.84,14.83,14.84c.58.58,1.11,1.17,1.62,1.79.5.61.96,1.24,1.39,1.89.43.65.82,1.32,1.18,2s.68,1.37.96,2.07c.29.71.54,1.42.75,2.15.16.54.3,1.08.42,1.63h0c.12.56.22,1.11.3,1.66.01,0,0,.01,0,.01.25,1.65.31,3.33.18,4.99Z"></path>
+                                        <path d="m124.26,53.45s0,.08-.01.11c-.03.54-.09,1.08-.17,1.62-.1.74-.24,1.48-.43,2.21-.09.37-.19.73-.29,1.09-.18.62-.39,1.23-.63,1.84-1.14,2.93-2.89,5.68-5.26,8.05l-34.22,34.22-4.17,4.17-5.63-1.3c5.52-8.06,9.96-16.03,13.52-23.72,6.74-14.53,10.38-28.09,12.26-39.49,1.59-9.52,1.96-17.53,1.9-23.32l1.5,1.49h0s14.83,14.84,14.83,14.84c.58.58,1.11,1.17,1.62,1.79.5.61.96,1.24,1.39,1.89.43.65.82,1.32,1.18,2s.68,1.37.96,2.07c.29.71.54,1.42.75,2.15.16.54.3,1.08.42,1.63h0c.12.56.22,1.11.3,1.66.01,0,0,.01,0,.01.25,1.65.31,3.33.18,4.99Z" style="isolation:isolate" fill="#051b35" opacity=".05"></path><path fill="#f8feff" stroke="#2d2828" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m106.35,52.73c-.64,4.35-3.3,7.6-5.91,7.19-.04,0-.11-.02-.15-.04v4.24c0,7.11-6.46,13.14-12.89,17.38-.08.04-.13.08-.21.11-3.85,2.51-8.26,3.79-12.69,3.79s-8.86-1.28-12.7-3.79c-.08-.04-.13-.08-.21-.11-6.44-4.24-12.89-10.26-12.89-17.38v-4.24s-.09.04-.15.04c-2.59.41-5.25-2.83-5.91-7.19-.68-4.33.96-8.2,3.57-8.59.88-.13,1.75.13,2.55.71.08-.88.22-1.74.47-2.59,16.5-6.89,33.37-6.96,50.61.24.21.77.34,1.54.41,2.35.79-.58,1.65-.84,2.53-.71,2.63.39,4.24,4.26,3.57,8.59h0Z"></path>
+                                        <path fill="#f1d302" stroke="#2d2828" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m139.68,112.39l-14.54,57.29c-1.13,4.45-5.13,7.57-9.72,7.57H33.59c-4.59,0-8.59-3.12-9.72-7.57l-14.54-57.29c-1.61-6.34,3.18-12.5,9.72-12.5h110.91c6.54,0,11.33,6.16,9.72,12.5Z"></path><path fill="#f8feff" stroke="#2d2828" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m87.11,138.58c0,6.96-5.64,12.6-12.6,12.6-.93,0-1.84-.1-2.72-.3-5.65-1.24-9.89-6.27-9.89-12.3,0-6.96,5.65-12.62,12.61-12.62,3.35,0,6.39,1.31,8.64,3.44,2.44,2.3,3.96,5.57,3.96,9.18Z"></path><path d="M139.68 112.39l-14.54 57.29c-1.13 4.45-5.13 7.57-9.72 7.57h-41.97c31.27-21.68 41.26-62.79 43.89-77.36h12.62c6.54 0 11.33 6.16 9.72 12.5zM87.11 138.58c0 6.96-5.64 12.6-12.6 12.6-.93 0-1.84-.1-2.72-.3 5.64-6.24 9.28-15.07 11.36-21.48 2.44 2.3 3.96 5.57 3.96 9.18z" style="isolation:isolate" fill="#051b35" opacity=".05"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h2 class="logo-text">HackerTube</h2>
+                    </a>
+                </div>
+
+                <div class="link-container">
+                    <div class="link-section">
+                        <a href="" class="link-item">
+                            <i class="uil uil-estate"></i> Home
+                        </a>
+                        <a href="" class="link-item">
+                            <i class="uil uil-video"></i> Shorts
+                        </a>
+                        <a href="" class="link-item">
+                            <i class="uil uil-tv-retro"></i> Subscription
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+
+                    <div class="link-section">
+                        <h4 class="section-title">You</h4>
+                        <a href="" class="link-item">
+                            <i class="uil uil-user-square"></i> Your channel
+                        </a>
+                        <a href="" class="link-item">
+                            <i class="uil uil-history"></i> History
+                        </a>
+                        <a href="" class="link-item">
+                            <i class="uil uil-clock"></i> Watch later
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+                    <div class="link-section">
+                        <h4 class="section-title">Explore</h4>
+                        <a href="" class="link-item">
+                            <i class="uil uil-fire"></i> Trending
+                        </a>
+                        <a href="" class="link-item">
+                            <i class="uil uil-music"></i> Music
+                        </a>
+                        <a href="" class="link-item">
+                            <i class="uil uil-basketball"></i> Gaming
+                        </a>
+                        <a href="" class="link-item">
+                            <i class="uil uil-trophy"></i> Sports
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+                    <div class="link-section">
+                        <h4 class="section-title">More From HackerTube</h4>
+                        <a href="" class="link-item">
+                            <i class="uil uil-shield-plus"></i> HackerTube Plus
+                        </a>
+                        <a href="" class="link-item">
+                            <i class="uil uil-headphones-alt"></i> HackerTube Music
+                        </a>
+                        <a href="" class="link-item">
+                            <i class="uil uil-airplay"></i> HackerTube Kids
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+                    <div class="link-section">
+                        <a href="" class="link-item">
+                            <i class="uil uil-setting"></i> Settings
+                        </a>
+                        <a href="" class="link-item">
+                            <i class="uil uil-file-medical-alt"></i> Report
+                        </a>
+                        <a href="" class="link-item">
+                            <i class="uil uil-question-circle"></i> Help
+                        </a>
+                        <a href="" class="link-item">
+                            <i class="uil uil-exclamation-triangle"></i> Feedback
+                        </a>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="contant-wrapper">
+                <div class="category-list">
+                    <button class="category-button active">All</button>
+                    <button class="category-button">WebSite</button>
+                    <button class="category-button">Music</button>
+                    <button class="category-button">Gaming</button>
+                    <button class="category-button">Node.js</button>
+                    <button class="category-button">JavaScript</button>
+                    <button class="category-button">React.js</button>
+                    <button class="category-button">TypeScript</button>
+                    <button class="category-button">Coding</button>
+                    <button class="category-button">Next.js</button>
+                    <button class="category-button">Data Analysis</button>
+                    <button class="category-button">Web Design</button>
+                    <button class="category-button">HTML</button>
+                    <button class="category-button">Tailwind</button>
+                    <button class="category-button">CSS</button>
+                    <button class="category-button">Express.js</button>
+                </div>
+
+                <div class="video-list">
+                    <a href="" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/OORUHkgg4IM/maxresdefault.jpg" alt="" class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://t3.ftcdn.net/jpg/04/50/03/16/360_F_450031665_lCn9pjQ6NuTTDZMnV8G8iIfNGqYaNMnw.jpg" alt="" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Top 10 Easy To Create JavaScript Games For Beginners</h2>
+                                <p class="channel-name">HackerTube <img src="https://liderposm.ru/upload/iblock/ec4/6o0uuv1axgtdzsf9q6c0bti4r2eu6pk6/Galochka.png" alt="" class="checked-channel"></p>
+                                <p class="views">27K Views • 4 months ago</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg" alt="" class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://t3.ftcdn.net/jpg/04/50/03/16/360_F_450031665_lCn9pjQ6NuTTDZMnV8G8iIfNGqYaNMnw.jpg" alt="" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">How to make Responsive Card Slider in HTML CSS & JavaScript</h2>
+                                <p class="channel-name">HackerTube <img src="https://liderposm.ru/upload/iblock/ec4/6o0uuv1axgtdzsf9q6c0bti4r2eu6pk6/Galochka.png" alt="" class="checked-channel"></p>
+                                <p class="views">42K Views • 1 year ago</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/YEloDYy3DTg/maxresdefault.jpg" alt="" class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://t3.ftcdn.net/jpg/04/50/03/16/360_F_450031665_lCn9pjQ6NuTTDZMnV8G8iIfNGqYaNMnw.jpg" alt="" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Create A Responsive Website with Login & Registration Form in HTML CSS and JavaScript</h2>
+                                <p class="channel-name">HackerTube <img src="https://liderposm.ru/upload/iblock/ec4/6o0uuv1axgtdzsf9q6c0bti4r2eu6pk6/Galochka.png" alt="" class="checked-channel"></p>
+                                <p class="views">68K Views • 9 months ago</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/hSSdc8vKP1I/maxresdefault.jpg" alt="" class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://t3.ftcdn.net/jpg/04/50/03/16/360_F_450031665_lCn9pjQ6NuTTDZMnV8G8iIfNGqYaNMnw.jpg" alt="" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Build Hangman Game in HTML CSS and JavaScript</h2>
+                                <p class="channel-name">HackerTube <img src="https://liderposm.ru/upload/iblock/ec4/6o0uuv1axgtdzsf9q6c0bti4r2eu6pk6/Galochka.png" alt="" class="checked-channel"></p>
+                                <p class="views">57K Views • 11 months ago</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/coj-l7IrwGU/maxresdefault.jpg" alt="" class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://t3.ftcdn.net/jpg/04/50/03/16/360_F_450031665_lCn9pjQ6NuTTDZMnV8G8iIfNGqYaNMnw.jpg" alt="" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">How to Make Chrome Extension in HTML CSS & JavaScript</h2>
+                                <p class="channel-name">HackerTube <img src="https://liderposm.ru/upload/iblock/ec4/6o0uuv1axgtdzsf9q6c0bti4r2eu6pk6/Galochka.png" alt="" class="checked-channel"></p>
+                                <p class="views">24K Views • 1 year ago</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/6QE8dXq9SOE/maxresdefault.jpg" alt="" class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://t3.ftcdn.net/jpg/04/50/03/16/360_F_450031665_lCn9pjQ6NuTTDZMnV8G8iIfNGqYaNMnw.jpg" alt="" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Create A Draggable Card Slider in HTML CSS and Vanilla JavaScript</h2>
+                                <p class="channel-name">HackerTube <img src="https://liderposm.ru/upload/iblock/ec4/6o0uuv1axgtdzsf9q6c0bti4r2eu6pk6/Galochka.png" alt="" class="checked-channel"></p>
+                                <p class="views">14.2K Views • 4 days ago</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/q4RgxiDM6v0/maxresdefault.jpg" alt="" class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://t3.ftcdn.net/jpg/04/50/03/16/360_F_450031665_lCn9pjQ6NuTTDZMnV8G8iIfNGqYaNMnw.jpg" alt="" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">How to make Responsive Image Slider in HTML CSS and JavaScript</h2>
+                                <p class="channel-name">HackerTube <img src="https://liderposm.ru/upload/iblock/ec4/6o0uuv1axgtdzsf9q6c0bti4r2eu6pk6/Galochka.png" alt="" class="checked-channel"></p>
+                                <p class="views">1M Views • 1 year ago</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/DLs1X9T1GcY/maxresdefault.jpg" alt="" class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://t3.ftcdn.net/jpg/04/50/03/16/360_F_450031665_lCn9pjQ6NuTTDZMnV8G8iIfNGqYaNMnw.jpg" alt="" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Create Text Typing Effect in HTML CSS & Vanilla JavaScript</h2>
+                                <p class="channel-name">HackerTube <img src="https://liderposm.ru/upload/iblock/ec4/6o0uuv1axgtdzsf9q6c0bti4r2eu6pk6/Galochka.png" alt="" class="checked-channel"></p>
+                                <p class="views">17K Views • 10 months ago</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/PsNaoDhzQm0/maxresdefault.jpg" alt="" class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://t3.ftcdn.net/jpg/04/50/03/16/360_F_450031665_lCn9pjQ6NuTTDZMnV8G8iIfNGqYaNMnw.jpg" alt="" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Create Responsive Image Slider in HTML CSS and JavaScript</h2>
+                                <p class="channel-name">HackerTube <img src="https://liderposm.ru/upload/iblock/ec4/6o0uuv1axgtdzsf9q6c0bti4r2eu6pk6/Galochka.png" alt="" class="checked-channel"></p>
+                                <p class="views">157K Views • 9 months ago</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/20Qb7pNMv-4/maxresdefault.jpg" alt="" class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://t3.ftcdn.net/jpg/04/50/03/16/360_F_450031665_lCn9pjQ6NuTTDZMnV8G8iIfNGqYaNMnw.jpg" alt="" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Make A Flipping Card UI Design in HTML & CSS</h2>
+                                <p class="channel-name">HackerTube <img src="https://liderposm.ru/upload/iblock/ec4/6o0uuv1axgtdzsf9q6c0bti4r2eu6pk6/Galochka.png" alt="" class="checked-channel"></p>
+                                <p class="views">85K Views • 2 months ago</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/_RSaI2CxlXU/maxresdefault.jpg" alt="" class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://t3.ftcdn.net/jpg/04/50/03/16/360_F_450031665_lCn9pjQ6NuTTDZMnV8G8iIfNGqYaNMnw.jpg" alt="" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Easy way to do Multiple File Uploading using HTML CSS and JavaScript</h2>
+                                <p class="channel-name">HackerTube <img src="https://liderposm.ru/upload/iblock/ec4/6o0uuv1axgtdzsf9q6c0bti4r2eu6pk6/Galochka.png" alt="" class="checked-channel"></p>
+                                <p class="views">7.4K Views • 3 weeks ago</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/cHkN82X3KNU/maxresdefault.jpg" alt="" class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://t3.ftcdn.net/jpg/04/50/03/16/360_F_450031665_lCn9pjQ6NuTTDZMnV8G8iIfNGqYaNMnw.jpg" alt="" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Build A Responsive Calculator in HTML CSS & JavaScript</h2>
+                                <p class="channel-name">HackerTube <img src="https://liderposm.ru/upload/iblock/ec4/6o0uuv1axgtdzsf9q6c0bti4r2eu6pk6/Galochka.png" alt="" class="checked-channel"></p>
+                                <p class="views">30K Views • 2 years ago</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/0_Lwi5ucGwM/maxresdefault.jpg" alt="" class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://t3.ftcdn.net/jpg/04/50/03/16/360_F_450031665_lCn9pjQ6NuTTDZMnV8G8iIfNGqYaNMnw.jpg" alt="" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Build A Currency Converter using ReactJS</h2>
+                                <p class="channel-name">HackerTube <img src="https://liderposm.ru/upload/iblock/ec4/6o0uuv1axgtdzsf9q6c0bti4r2eu6pk6/Galochka.png" alt="" class="checked-channel"></p>
+                                <p class="views">7.2K Views • 2 weeks ago</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/AyV954yKRSw/maxresdefault.jpg" alt="" class="thumbnail">
+                            <p class="duration">10:03</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://t3.ftcdn.net/jpg/04/50/03/16/360_F_450031665_lCn9pjQ6NuTTDZMnV8G8iIfNGqYaNMnw.jpg" alt="" class="icon">
+                            <div class="video-details">
+                                <h2 class="title">Responsive Admin Dashboard Panel in HTML CSS and JavaScript</h2>
+                                <p class="channel-name">HackerTube <img src="https://liderposm.ru/upload/iblock/ec4/6o0uuv1axgtdzsf9q6c0bti4r2eu6pk6/Galochka.png" alt="" class="checked-channel"></p>
+                                <p class="views">161K Views • 1 year ago</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+</body>
+</html>
